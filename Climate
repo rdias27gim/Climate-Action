@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climate Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <h2>Climate Quest</h2>
+        <div id="levelDisplay">Level: <span id="level">1</span></div>
+        <p id="levelDescription">Reduce your carbon footprint by making daily sustainable choices.</p>
+        <div id="actions">
+            <!-- Actions will be added dynamically -->
+        </div>
+        <div id="feedback"></div>
+        <div id="planetHealth">Planet Health: <span id="healthScore">100</span>%</div>
+        <button id="nextLevel" onclick="nextLevel()">Next Level</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
